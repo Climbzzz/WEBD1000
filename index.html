@@ -11,6 +11,17 @@
         header { background: #f4f4f4; padding: 20px; text-align: center; }
         footer { background: #333; color: #fff; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; }
         main { padding: 20px; }
+        img.responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        @media (max-width: 600px) {
+            img.responsive-img {
+                width: 150px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -21,8 +32,8 @@
     
     </nav>
     <header>
-        <h1>WELCOME!</h1>
-        <img src="Images/Bugatti.jpg" alt="Profile picture" width="700">
+    <h1>WELCOME!</h1>
+    <img src="Images/Bugatti.jpg" alt="Profile picture" class="responsive-img">
     </header>
     <main>
         <p>This is my first webpage. Here you can learn more about me and my projects.</p>
