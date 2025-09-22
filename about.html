@@ -11,6 +11,19 @@
         header { background: #f4f4f4; padding: 20px; text-align: center; }
         footer { background: #333; color: #fff; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; }
         main { padding: 20px; }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -25,6 +38,17 @@
     <main>
         <p>Welcome to my about me! I am contantly updating it making sure that it works and looks clean</p>
         <p>Hockey</p>
+        <div class="grid-container">
+            <img src="Images/9fbefe45-7434-4e88-a49f-bef8c11096d6.jpg" alt="Image 1">
+            <img src="Images/img2.jpg" alt="Image 2">
+            <img src="Images/img3.jpg" alt="Image 3">
+            <img src="Images/img4.jpg" alt="Image 4">
+            <img src="Images/img5.jpg" alt="Image 5">
+            <img src="Images/img6.jpg" alt="Image 6">
+            <img src="Images/img7.jpg" alt="Image 7">
+            <img src="Images/img8.jpg" alt="Image 8">
+            <img src="Images/img9.jpg" alt="Image 9">
+        </div>
     </main>
     <footer>
         &copy; Tyrellian and co. 2025.
