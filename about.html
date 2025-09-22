@@ -36,6 +36,8 @@
           min-width: 160px;
           box-shadow: 0 8px 16px rgba(0,0,0,0.2);
           z-index: 1;
+          top: 100%;
+          left: 0;
         }
 
         .dropdown:hover .dropdown-content,
@@ -57,16 +59,18 @@
 </head>
 <body>
     <nav>
-        <a href="/WEBD1000/home.html">Home</a>
-        <div class="dropdown">
-          <a href="/WEBD1000/about.html">About</a>
-          <ul class="dropdown-content">
-            <li><a href="/WEBD1000/team.html">Our Team</a></li>
-            <li><a href="/WEBD1000/history.html">History</a></li>
-            <li><a href="/WEBD1000/mission.html">Mission</a></li>
-          </ul>
-        </div>
-        <a href="/WEBD1000/projects.html">Projects</a>
+        <ul style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center;">
+          <li><a href="/WEBD1000/home.html">Home</a></li>
+          <li class="dropdown">
+            <a href="/WEBD1000/about.html">About</a>
+            <ul class="dropdown-content" style="list-style: none; margin: 0; padding: 0;">
+              <li><a href="/WEBD1000/team.html">Our Team</a></li>
+              <li><a href="/WEBD1000/history.html">History</a></li>
+              <li><a href="/WEBD1000/mission.html">Mission</a></li>
+            </ul>
+          </li>
+          <li><a href="/WEBD1000/projects.html">Projects</a></li>
+        </ul>
     </nav>
     <header>
         <h1>About me!</h1>
