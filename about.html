@@ -24,12 +24,48 @@
             display: block;
             border-radius: 8px;
         }
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background: #fff;
+          min-width: 160px;
+          box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content,
+        .dropdown:focus-within .dropdown-content {
+          display: block;
+        }
+
+        .dropdown-content li {
+          padding: 8px 16px;
+        }
+
+        .dropdown-content li a {
+          color: #333;
+          text-decoration: none;
+          display: block;
+          cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <nav>
         <a href="/WEBD1000/home.html">Home</a>
-        <a href="/WEBD1000/about.html">About</a>
+        <div class="dropdown">
+          <a href="/WEBD1000/about.html">About</a>
+          <ul class="dropdown-content">
+            <li><a href="/WEBD1000/team.html">Our Team</a></li>
+            <li><a href="/WEBD1000/history.html">History</a></li>
+            <li><a href="/WEBD1000/mission.html">Mission</a></li>
+          </ul>
+        </div>
         <a href="/WEBD1000/projects.html">Projects</a>
     </nav>
     <header>
