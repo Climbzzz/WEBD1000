@@ -7,46 +7,22 @@
   <style>
     /* top banner */
     body { margin: 0; }
-    .responsive-img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-    .top-banner {
-      background: #a33333;
-      color: #fff;
-      font-size: 0.9rem;
-      padding: 8px 12px;
-    }
+    .responsive-img { max-width: 100%; height: auto; display: block;}
+    .top-banner { background: #a33333; color: #fff; font-size: 0.9rem; padding: 8px 12px;}
 
     /* site header */
-    header.site-header {
-      background: #f3b8b8;
-      padding: 16px 12px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .header-left {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-    .header-logo {
-      width: 60px;
-      height: 60px;
-      object-fit: cover;
-    }
-    /* navigation styles */
-    header.site-header nav ul {
-      list-style: none;
-      padding: 12px;
-      margin: 0;
-      display: flex;
-      gap: 50px;
-    }
+    header.site-header {background: #f3b8b8; padding: 16px 12px; display: flex; justify-content: space-between; align-items: center;}
+    .header-left {display: flex; align-items: center; gap: 20px;}
+    .header-logo {width: 60px;height: 60px;object-fit: cover;}
 
+    /* navigation styles */
+    header.site-header nav ul {list-style: none;padding: 12px;margin: 0;display: flex;gap: 50px;}
     header.site-header nav a { color: #000000; text-decoration: none; }
+
+    /* Footer styles */
+    footer { background: #a33333; color: #fff; text-align: center; padding: px; margin-top: 10px; }
+    footer p { margin: 4px 0; }
+
   </style>
 </head>
 <body>
@@ -58,7 +34,7 @@
   </div>
   <header class="site-header">
     <div class="header-left">
-      <img src="images/hugging.jpg" alt="Community Logo" class="header-logo">
+      <img src="/images/hugging.jpg" alt="Community Logo" class="header-logo">
       <h1>Corah Community Events</h1>
     </div>
     <nav>
@@ -73,7 +49,7 @@
 
   <main>
     <section id="hero">
-      <img src="/images/istockphoto-1413583709-612x612.jpg" class="responsive-img">
+      <img src="/images/istockphoto-1413583709-612x612.jpg" class="responsive-img" float="right">
       <h2>Welcome to Corah Community</h2>
       <p>Connecting seniors with local events and activities.</p>
     </section>
