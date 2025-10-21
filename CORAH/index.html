@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Corah Community Events</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Corah Community Events</title>
   <style>
     /* top banner */
     body { margin: 0; }
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
     .top-banner {
       background: #a33333;
       color: #fff;
@@ -21,6 +26,16 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .header-logo {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
     }
     /* navigation styles */
     header.site-header nav ul {
@@ -42,7 +57,10 @@
     <span class="item">Mon-Fri 9:00-17:00</span>
   </div>
   <header class="site-header">
+    <div class="header-left">
+      <img src="images/hugging.jpg" alt="Community Logo" class="header-logo">
       <h1>Corah Community Events</h1>
+    </div>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -55,6 +73,7 @@
 
   <main>
     <section id="hero">
+      <img src="/images/istockphoto-1413583709-612x612.jpg" class="responsive-img">
       <h2>Welcome to Corah Community</h2>
       <p>Connecting seniors with local events and activities.</p>
     </section>
