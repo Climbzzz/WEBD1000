@@ -5,27 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* top banner */
-    body { margin: 0; }
-    .responsive-img { max-width: 100%; height: auto; display: block;}
-    .top-banner { background: #a33333; color: #fff; font-size: 0.9rem; padding: 8px 12px;}
+    /* page base */
+    body { 
+      margin: 0; 
+      font-family: Arial, Helvetica, sans-serif;
+      color: #000000
+    }
+    .top-banner { background: #a33333; color: #fff; font-size: 0.9rem; padding: 8px 12px; }
 
     /* site header */
-    header.site-header {background: #c9b86d; display: flex; justify-content: space-between; align-items: center;}
-    .header-left {display: flex; align-items: center; gap: 10px;}
-    .header-logo {width: 80px;height: 80px;object-fit: cover;}
+    header.site-header {background: #da908b; display: flex; justify-content: space-between; align-items: center;}
+    .header-left {display: flex; align-items: center; gap: 0px;}
+    .header-logo {width: 100px;height: 100px;object-fit: cover;}
 
     /* navigation styles */
     header.site-header nav ul {list-style: none;padding: 12px;margin: 0;display: flex;gap: 50px;}
     header.site-header nav a { color: #000000; text-decoration: none; }
 
     /* Footer styles */
-    footer { background: #a33333; color: #fff; text-align: center; padding: px; margin-top: 10px; }
+    footer { background: #a33333; color: #fff; text-align: center; padding: 8px; margin-top: 10px; }
     footer p { margin: 4px 0; }
-
   </style>
 </head>
 <body>
+  <div class="page-wrapper">
   <div class="top-banner">
     <span class="item">(Location)</span>
     <span class="item">(555) 123-4567</span>
@@ -34,7 +37,7 @@
   </div>
   <header class="site-header">
     <div class="header-left">
-      <img src="images/image_2025-10-21_115813292-removebg-preview.png" alt="Community Logo" class="header-logo">
+      <img src="../images/image_2025-10-21_115813292-removebg-preview.png" alt="Community Logo" class="header-logo responsive-img">
     </div>
     <nav>
       <ul>
@@ -48,7 +51,7 @@
 
   <main>
     <section id="hero">
-      <img src="/images/istockphoto-1413583709-612x612.jpg" class="responsive-img" float="right">
+      <img src="../images/istockphoto-1413583709-612x612.jpg" class="responsive-img hero-img" alt="Community event">
       <h2>Welcome to Corah Community</h2>
       <p>Connecting seniors with local events and activities.</p>
     </section>
@@ -74,11 +77,11 @@
         <li><a href="#">Sign Up for Newsletter</a></li>
       </ul>
     </aside>
-  </main> 
+  </main>
 
   <footer>
     <p>&copy; 2025 Corah Community. All rights reserved.</p>
     <p>Contact us: info@corahcommunity.org</p>
   </footer>
 </body>
-</html>  
+</html>
