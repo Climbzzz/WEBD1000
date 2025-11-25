@@ -34,15 +34,21 @@ header {
     flex-direction: row;
     gap: 16px;
     align-items: center;
+    margin-left: auto;
 }
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: #7b458f;
     font-weight: bold;
     font-size: 18px;
+    border: 2px solid #7b458f;
+    border-radius: 25px;
+    padding: 10px 24px;
+    display: inline-block;
 }
 
 .nav-link:hover {
-    color: #7b458f;
+    background-color: #7b458f;
+    color: white;
 }
