@@ -42,11 +42,21 @@ header {
     font-size: 18px;
     border: 2px solid #7b458f;
     border-radius: 25px;
-    padding: 10px 24px;
+    padding: 6px 16px;
     display: inline-block;
 }
 
 .nav-link:hover {
+    background-color: #420e53;
+    color: white;
+}
+
+.nav-link.active {
     background-color: #7b458f;
+    color: white;
+}
+
+.nav-link.active:hover {
+    background-color: #420e53;
     color: white;
 }
