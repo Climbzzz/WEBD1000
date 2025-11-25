@@ -9,12 +9,6 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    align-self: stretch;
-    gap: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 32px;
-    padding-bottom: 8px;
 }
 
 .separator {
@@ -26,7 +20,11 @@ header {
 .header {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-bar {
