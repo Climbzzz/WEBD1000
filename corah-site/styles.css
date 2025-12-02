@@ -16,7 +16,7 @@ body {
 }
 
 html.dark {
-    --bg: #0f0f12;
+    --bg: #1c1c1c;
     --text: #eaeaea;
     --accent: #b08bd3;
     --accent-strong: #7b458f;
@@ -62,8 +62,13 @@ header {
     height: 100px;
     width: auto;
     max-width: 100%;
-    height: auto;
     /* allow the wordmark to shrink when space is tight */
+    flex-shrink: 1;
+    max-width: 45vw;
+}
+
+html.dark .brand-wordmark {
+    height: 100px;
     flex-shrink: 1;
     max-width: 45vw;
 }
