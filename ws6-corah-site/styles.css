@@ -62,6 +62,11 @@ header {
     display: inline-block;
 }
 
+.nav-link:hover {
+    background-color: #420e53;
+    color: white;
+    text-decoration: underline;
+}
 
 .nav-link.active {
     background-color: #7b458f;
