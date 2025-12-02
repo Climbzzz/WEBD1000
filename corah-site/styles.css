@@ -130,15 +130,9 @@ html.dark .brand-wordmark {
     color: white;
 }
 
-.dark-toggle {
-    transition: color 220ms ease, border-color 220ms ease;
-}
-
 .dark-toggle:active {
     background-color: var(--accent-strong);
 }
-
-/* Container utility */
 
 /* Container utility */
 .container {
