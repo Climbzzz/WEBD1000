@@ -12,7 +12,7 @@
       <div class="header">
         <div class="logo-container">
           <img src="images/corah-brand-logo.svg" alt="CORAH Logo" class="brand-logo">
-          <img src="images/corah-brand-wordmark-logo.svg" alt="Center of rural aging and health" class="brand-wordmark">
+          <img src="images/corah-brand-wordmark-logo.svg" alt="Center of rural aging and health" class="brand-wordmark" id="brand-wordmark" data-dark-src="images/corah-brand-wordmark-dark.svg">
         </div>
         <nav class="nav-bar">
           <a href="index.html" class="nav-link">Home</a>
@@ -24,6 +24,7 @@
           <a href="register.html" class="nav-link active">Register</a>
           <div class="nav-pill"></div>
           <a href="#login" class="nav-link">Login</a>
+          <button id="dark-toggle" class="dark-toggle" aria-pressed="false" title="Toggle dark mode">🌙</button>
         </nav>
       </div>
       <div class="separator"></div>
@@ -33,6 +34,13 @@
     <h1>Welcome to CORAH</h1>
     <p>Register page</p>
   </main>
-  <footer></footer>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2025 Corah Community • <a href="#">Privacy Policy</a></p>
+  </div>
+
+</footer>
+
+  <script src="js/dark-toggle.js"></script>
 </body>
 </html>
