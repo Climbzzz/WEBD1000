@@ -130,10 +130,15 @@ html.dark .brand-wordmark {
     color: white;
 }
 
-/* Smooth transitions for theme changes */
-html, body, .nav-link, .nav-link.active, .dark-toggle {
-    transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease;
+.dark-toggle {
+    transition: color 220ms ease, border-color 220ms ease;
 }
+
+.dark-toggle:active {
+    background-color: var(--accent-strong);
+}
+
+/* Container utility */
 
 /* Container utility */
 .container {
