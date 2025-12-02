@@ -136,7 +136,7 @@ html.dark .brand-wordmark {
     background-color: var(--accent-strong);
 }
 
-
+ 
 /* Hero and buttons (basic responsive helpers) */
 .hero { width: 100%; display: flex; justify-content: space-between; padding: 50px 20px; box-sizing: border-box; }
 .hero h1 { font-size: 5rem; margin-bottom: 16px; }
