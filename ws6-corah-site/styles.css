@@ -65,6 +65,7 @@ header {
 .nav-link:hover {
     background-color: #420e53;
     color: white;
+    text-decoration: underline;
 }
 
 .nav-link.active {
